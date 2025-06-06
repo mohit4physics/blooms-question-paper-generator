@@ -12,17 +12,14 @@ This is a Python Tkinter application to generate question papers based on Bloomâ
 - Responsive UI using threading for CSV loading.
 
 ## Input CSV Format
-
-The CSV file should have columns:
-
-| Subject | Level       | Marks | Question                                         | CO  | CL  | KC  |
-|---------|-------------|-------|-------------------------------------------------|-----|-----|-----|
-| Physics | Remembering | 1     | What is Newton's First Law?                      | CO1 | CL1 | KC1 |
-
 Levels supported: Remembering, Understanding, Applying, Analyzing, Evaluating, Creating.
 
-## Installation
+## Output
+The current outputs:
+PDF: Uses basic tables but lacks structured formatting (e.g., proper headings, spacing, consistent fonts).
+Word: Generates tables but without layout control (no column widths, styles, or spacing).
 
+## Installation
 1. Clone this repository.
 2. Install dependencies:
 
@@ -31,3 +28,5 @@ reportlab
 python-docx
 chardet
 
+## Acknowledgement
+ChatGPT greatly help to write the code and advancements.
