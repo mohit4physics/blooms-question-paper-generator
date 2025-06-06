@@ -22,8 +22,8 @@ A Python GUI tool designed for educators to automatically generate question pape
 - Specify number of questions per level
 - Customize exam information (date, time, title, etc.)
 - Export question paper as:
-  - ✅ PDF (structured table format)
-  - ✅ Word document (basic table format)
+  - PDF (structured table format)
+  - Word document (basic table format)
 
 ---
 
