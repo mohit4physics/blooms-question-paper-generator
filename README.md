@@ -1,32 +1,38 @@
-# Bloom's Taxonomy-Based Question Paper Generator
+# 🌟 Bloom's Taxonomy Question Paper Generator
 
-This is a Python Tkinter application to generate question papers based on Bloom’s Taxonomy levels.
+A Python GUI tool designed for educators to automatically generate question papers aligned with **Bloom's Taxonomy**. Load questions from a CSV, customize exam parameters, and export structured papers in **PDF** or **Word** formats.
 
-## Features
+---
 
-- Load questions from a CSV file with subject, level, marks, and metadata.
-- Specify exam details (institute, exam title, program, course, date, time, total marks).
-- Select questions by Bloom’s levels and generate a formatted question paper.
-- Export the question paper to PDF or Word format.
-- Supports multiple subjects and level-wise question distribution.
-- Responsive UI using threading for CSV loading.
+## 📁 Repository Contents
 
-## Input CSV Format
-Levels supported: Remembering, Understanding, Applying, Analyzing, Evaluating, Creating.
+| File Name                 | Description                                                  |
+|--------------------------|--------------------------------------------------------------|
+| `question_paper_generator.py` | Main Python GUI application using Tkinter and ReportLab.     |
+| `questions.csv`           | Sample question bank with Bloom's levels and metadata.       |
+| `LICENSE`                 | Open-source license (MIT).                                   |
+| `README.md`               | This documentation file.                                     |
 
-## Output
-The current outputs:
-PDF: Uses basic tables but lacks structured formatting (e.g., proper headings, spacing, consistent fonts).
-Word: Generates tables but without layout control (no column widths, styles, or spacing).
+---
 
-## Installation
-1. Clone this repository.
-2. Install dependencies:
+## 🚀 Features
 
-## requirements
-reportlab
-python-docx
-chardet
+- GUI-based interface using **Tkinter**
+- Load questions categorized by:
+  - Subject
+  - Bloom’s Taxonomy level (Remembering → Creating)
+  - CO (Course Outcome), CL (Cognitive Level), KC (Knowledge Category)
+- Specify number of questions per level
+- Customize exam information (date, time, title, etc.)
+- Export question paper as:
+  - ✅ PDF (structured table format)
+  - ✅ Word document (basic table format)
 
-## Acknowledgement
-ChatGPT greatly help to write the code and advancements.
+---
+
+## 🛠️ Requirements
+
+Ensure you have **Python 3.7+** and these libraries installed:
+
+```bash
+pip install reportlab python-docx chardet
