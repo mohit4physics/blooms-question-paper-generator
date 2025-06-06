@@ -1,21 +1,18 @@
-# 🌟 Bloom's Taxonomy Question Paper Generator
+# Bloom's Taxonomy Question Paper Generator
 
 A Python GUI tool designed for educators to automatically generate question papers aligned with **Bloom's Taxonomy**. Load questions from a CSV, customize exam parameters, and export structured papers in **PDF** or **Word** formats.
 
 ---
 
-## 📁 Repository Contents
+## Repository Contents
 
-| File Name                 | Description                                                  |
-|--------------------------|--------------------------------------------------------------|
-| `question_paper_generator.py` | Main Python GUI application using Tkinter and ReportLab.     |
-| `questions.csv`           | Sample question bank with Bloom's levels and metadata.       |
-| `LICENSE`                 | Open-source license (MIT).                                   |
-| `README.md`               | This documentation file.                                     |
+`question_paper_generator.py` : Main Python GUI application using Tkinter and ReportLab.
+`questions.csv`: Sample question bank with Bloom's levels and metadata.
+`LICENSE`: Open-source license (MIT).                                 
+`README.md`
 
----
 
-## 🚀 Features
+## Features
 
 - GUI-based interface using **Tkinter**
 - Load questions categorized by:
@@ -30,7 +27,7 @@ A Python GUI tool designed for educators to automatically generate question pape
 
 ---
 
-## 🛠️ Requirements
+## Requirements
 
 Ensure you have **Python 3.7+** and these libraries installed:
 
